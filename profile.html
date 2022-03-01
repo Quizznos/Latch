@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Latch Profile Page</title>
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+      <h1>
+        <a href="index.html"><i class="fas fa-code"></i> Latch</a>
+      </h1>
+      <ul>
+        <li><a href="profiles.html">UserName</a></li>
+        <li><a href="register.html">Email</a></li>
+        <li><a href="login.html">Name</a></li>
+      </ul>
+    </nav>
+    <section class="container">
+      <a href="profiles.html" class="btn btn-light">Back To Home</a>
+
+      <div class="profile-grid my-1">
+         <!-- Top -->
+        <div class="profile-top bg-primary p-2">
+          <img
+            class="round-img my-1"
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUTEhAVFRIVFRUVFxgVEBUXGBgVFRUWFxUXFRUYHSggGBolGxUVITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGy0lHyUtLSstLS0tLy0tLS0tLS0yLS01LS0tLS0tLi0tLS0tLS0rLS0tLS0tLS0tListKy0tLf/AABEIAOEA4QMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQIEBQYDB//EAD8QAAIBAgIGBwYDBgYDAAAAAAABAgMRBCEFBhIxUZEiMkFhcYHBQlKhscLRE2KyM3JzkuHwNENTgpOiFCMk/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAIFAQQGAwf/xAA8EQEAAQMBAwkHAwIFBQEAAAAAAQIDBBEFITESQVFhcYGRobEGEyLB0eHwMjNCI1IUQ3KCoiQ0ssLxJf/aAAwDAQACEQMRAD8A+4gAAERlcCQAAAAAAAAAAAAAAAACIyurgSAAAAAAAAAAAAHnKQFobgLAAAAABVsCLd4FkwJAAAAAAB5ykBeO4CQAAAAAq2BAFkwJAAecpATGIFwAAAAAAUXqAAskBIAAAAAecpAWjECwAAAAAAKRAAWSAkCJLICsYgXAAAAAAAAhoAkBIAAAAAVmroCIxAuAAAAAAABDQBICQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABi4zSFOl15pPhvfJZnpbs13P0w08rPx8WNbtWnVxnw4tLidZn/l0/Ob+lfc3qMD++fBzuR7TzwsUd9X0j6tfPTWIm7KflGK+1zYjFs0xvjxVNe28+9OlNfdTEfSZ80L/wAp/wCu/wCcf9PH9vkh/wDqV7/6v/I2cUuyuv8AkMf9PP8Ab5MTG1Kd/wDV/wCSY6WxEHnOXhOK9VcTjWa+EeDMbY2hYnSqueyqPrGrOw+ssl+0gn3xdvg/ueFeBH8Z8Vpj+1Ncbr1ET107vKfrDdYLSdKr1ZZ+68ny7fI07liu3+qHR4e1MXK3W6t/RO6fDn7tWYeKwAAAAAAAAAAAAAAAAAAAAAUq1FFOUmklvbZmImZ0hCuum3TNVU6RHO5nSesTleNLox95rN+C7Pn4FnYwYjfc8HI7Q9oK69aMbdH93PPZHN37+xiYHQ9Ws9p9FPPane770t7Pa5lW7e6N/VDQxNj5WXPLq3RP8quM93Ge/SOtvsJoCjDrLbf5t38u4r7mZcq4bux0uNsDEtb6o5U9fDw4eOrZ06UYq0YpLglY1pmZ3yuKLdFEaURER1blzCYBWUE8mrrvMxOnBGqmKo0qjWGvxWg6M/Y2Xxjl8Nx70ZV2nn17VTk7Cwr38eTPTTu8uHk0WO0DUp5x6cVw6y8vsb9rMor3VbvRzGb7P5OP8Vr446v1R3fTwW0bp6cOjUvOP/Zefb5mL2HTVvo3T5J7P9oL1jSi/rVT0/yj69+/rdRhsRGpFSg7p/3nwKuuiaJ0qdtYyLd+iLludYl6kXsAAAAAAAAAAAAAAAAAHniK8YRcpO0Vm2SopmqeTHF5Xr1Fmiblc6RDi9JaRqYmaik9m/Rgt7fF8X8i5s2KLFOs8eeXDZ2fez7kUUxOmu6np656/KPNvNEaBjC0qlpT323xj933mjkZk17qd0eq/wBm7Eos6XL3xVdHNH1nr8G8NJfoi7gSAAAAAADV6V0NCrmujU49j/eXqbNjJqt7p3wpdp7FtZcTXT8NfT09v14+jncPiKuGqNWs/ai90l/faWNdFvIo183IWMjK2XkTTMdtM8Jj84T/APHXYLFxqwUovLtXan2p95UXLdVurk1O/wAPMtZVqLtud3nE9Esgg2gAAAAGwIi7oCQAFZMCLeIFosCQAADitPaTdapswzpxdope1Ldfv4L+pdYtiLVPKq4+n5zuI2tnzl3Pd2/0RO7rnp+n3b7QWiVRjtSzqNZ/lXur1NDKyZuzpHBf7K2ZGLRy6/1zx6uqPn09jbmouHnKQFo7gNbjtO0qeSe3LhH1luNm3iXK+qOtT5e3MXH3RPKnoj68GmrayVX1YwivBt87+hu04FuOMzLn7vtJlVT8FNMR4/T0UjrDXXuPxj9mSnBtdbyj2izY48me77s7Cay3aVSCSftJuy8rGvcwdI1pnVY4vtNFVcU36IiJ54mdI7tPm6CnUUknFpp7mndGhMTE6S6mi5TcpiqidYnngbMJoS8QMPSmj41oWeUl1XwfB9x7WL02qtY4K3aezbeba5M7qo4T0faedzOj8XPD1Wmna9px9V39qLS7bpv0ax3OJwMy7s3JmK43a6VR8+7jHTDs6c1JJp3TV0+5lNMTE6S+jUV010xVTOsTvhYwkAADA85SuBeKyAkABVAQBZICQAGk1px+xT2IvpVLrwj2893M3cKzy6+VPCPVSbbzJtWfd0zvq9Ofx4MHVXR13+NJZLKHj2y8t3M986/p/TjvaGwsGKp/xFcbo3U9vPPdwjr16HUlW6p5ylcC0Ygc1rPpKW1+DF2SXT7757Pha3Ms8KxGnvKu5yO39oV8v/DUTpH8uvXm7NOPS59Fi5bRIYAjKTCLZaCx8qdRRv0JtJrveSaNXKsxXRM88LnYmfXjZFNvX4Kp0mOueE/XpjudhEpn0MAskBo9ZtH7UfxYrpR63fHj5fI3sO9yauRPCfVzHtFs73lv/E0R8VPHrj7emrz1Wxt70m93Sj4dq9fNks61pPLjveXs1naxONXPDfT2c8d3HvnodCV7rAA2B5ydwLRiBYAAAhoAkBIAABwelKzr4l7PbJU4+Cdk/C935l7YpizZ1ntlw2dcqy8uYp555MfnjLt8LQVOEYR3RSSKSuqa6pqnndpZtU2rcW6eERo9JK5F6ojEBOVk3wzMxGu5iqYpiZl87q1nOTm98m2/M6KmmKKYpjmfMLt2q9XNyrjM6qknkkwjKQiBhN7ZreszGmu5jWad8cX0KOaT7bHOS+s0zrTErJBJIESjdWe5hiqmKo0ng4mrF4fEZexK674v+jsXdMxftb+ePN82u01bNz938J1jrpn7To7WEk0mtzVylmNNz6RTVFURVHCVjCSs1cBGIFgAAAAAAAAGLpSv+HRnLtUXbx3L4tHrZo5dymnra2Zd91YrrjmifHm83Kap4far7XZCLfm+ivg3yLXPr0tadMuX2JZ5eTyp/jGvfO76u1KV2IAA8cZ+zn+7L5Mnb/VHa8cj9mvsn0fO4nRPmccFkYY4iMorGEZgMMaARmNXfaPnelTfGEXzijn7saV1R1y+o4Vc141uqeemmfKGQQbIAA5nWyhaUJ8U4vyzXzZZYFe6ae9xntTY0rt3o54mme7fHrLaav1trDx/LePJ5fCxq5VPJuz4rvYV73uDRrxj4fDh5aNka64AAAAAAAAAAABptbJ2wzXvSivjtfSbmDGt6J6NVVtqrTFmOmY9dfkw9S6fRqS4uMeSb+o9tpT8VMNTYFHw11dcR4R93Sla6AAAY2ksQqdKU5JtJblvzdvU9LVE11xTDWzL9NizVcrjWI6Ovc+exOhl83iNIWDGiTDHFKCOiQjKAjLutD11OjBxTSS2c/y5ehQ5FE03Jie3xfSdl36L2LRVRGkRGm/q3M08VgAANPrRTvQv7sk/T1NvCnS73Of9pbfKwuV0VRPy+bx1Sn0JrhJPmrehPPj4onqa/stX/RuUdFWvjH2b40XUAAAAAAAAAAAA0GuX7CH8Vfomb+z/AN2ez5wpdu/sU/6o9KjU1/8Apn/Ef6YjaH7kdnzljYX7FX+r5Q35oLsAAYOnIXw1Rflb/lz9D3xp0u09rR2nRNWJciOjXw3uCL98+0SYRSYYSODE70oIJCMu01ehbDQ77vycm18LFHlzrdl9C2HbmjBo159Z8ZnTybI11sAANZrH/h5eMf1xNnE/djv9FN7Qf9hX/t/8oYGqO+r/ALPrNjP/AI9/yVPsrxvf7f8A2dEVzrwAAAAAAAAAAAaXW2F8M37sov6fU3MCdL3bEqrbNOuNM9Ex9PmxNSp9CpHhKL5q30nttKPiplrbCq+CunrifGPs6UrV8AAK1IbSae5prmZidJ1RrpiqmaZ53A6TwLoVNhy2sk07Wyd1u8i/sXve08rTR8/zsOcS77qZ13a6+P0YqPVp6JCEgRlJhid7K0dhHWqKCdrpu7V7Jd3I8r12LVHKls4WHVl3otUzpx39GjusNR2IRgt0YqPJWKKurlVTV0vo1i1Fq3TbjhTER4Q9CL1AAGo1oqWoW96UV6+ht4Ua3e5Qe0lzk4WnTVEfP5MfVKHQqPjJLkv6npnz8UQ1PZajS1cr6ZiPCPu35oOqAAAAAAAAAFYyuBYDD0vQ/EoVI9ri7eKzXxSPWxXyLlNXW1sy172xXT1efM5bVDE7NfZ7Jxa845r4bRa7Qo1t69E/nyc9sa7yb/J/ujzjf6au1KV1QAAAc7rdg21Gql1ejLwe5+Cd+ZY4F2ImaJ53O7fxZqppvUxw3T2c093zcsWrlJSEZgMIpCMul1SwvWqtb+jHyfSfOy8mVefc4UR2uq9nMWY5WRVHH4Y+fnpHc6QrnUjYERd1uAkDmtba+cIcLyfnkvqLLAo41dzjvam/rVbsx11T6R82y1do7OHjxleXN5fBI1surlXZ6ty42BZ91g068atavHh5aNmay5AAAAAAAAPOUrgWggLAAPn+kKbw2Kez7MlOPfFu6XhvXkX9mqL9jf0aT+ebjcmirFypmnmnWOz83O8w9ZThGcXdSSa8yiqpmmZpnmdfbuU3KIrp4TvehFNVsCNnyArXScJJrLZafhYlTOlUTDzuxE0VRPDSXziLyOll82jgkwxKQjKTDDvNCL/56X7iKDI/dq7X0LZcR/g7Wn9sM1s8W+8m7gekVkAk7BiZ03y4jFVHiMRl7clGPdFZJ8sy7oiLFnfzb3zjJrq2jnfD/KdI7Onw3u2pwSiktySS8EUszrOsvo1FEUUxTTwjdHcsYSAKN38ACXACyYEgAPOUrgWjECwAABz+t2j9umqsV0ob++D38t/M38C9ya+RPCfVT7XxveW/eU8afT7fVi6oaS/yZPi4fOUfXmeu0LH+ZHf9WvsfL/yKu2PnHz8XVFW6BVAQBzOldY+tTpR4xcpcnsr78izsYPCque5zWdtr9Vq1HTGs/KPr4ObRaOa0WMIyBFJhGW80TrA6UVCcbwWSa3pd67TQyMPlzNVM71/s7bc2KabVynWmOExxj6+TqFPaSa3OzXmVMxo7CmYqiJh6RiGVgNJrNpDYh+HF9Kaz7o9vPdzN3Ds8qrlzwj1c77QZ/urXuKJ+Krj1U/fh4sbVXBb6rXGMfqfpzPXOu/5cd7T9m8Ljk1dlPzn5eLpCtdcAAKR+IACyQEgQ0BEYgWAAAAENXBMauE05o2WHqqULqDd4Ney1ns34rs7i9xr8X6NKuPP1uSz8ScW7yqOE74nono7uZ0+gtLqvCzyqRXSXH8y7vkVeTjzaq3cOb6L3AzYyKN/6o4x8/wA4MvG42nTV6k1Hhxfglmzyt2q7k6Uxq2b+Tasxrcq0/OhzekdZpS6NFbK959Z+C3IsrOz4jfc39Tn8vbVdXw2Y0jpnj9mgbbeebfzLHTRQTrM6yBGUoISkwiBiUmJY4N1o7WGcMqi248faXn2mjdwaat9O6fJeYm3rtr4bscqn/l9+/wAXS4LSVKr1Jq/B5S5Fbcs12/1Q6fFz8fJj+nVv6OE+CNKaQjRhd5yfVj2t/YzZs1XatIRz863iWuXVx5o6Z/OMuTwmHniazu97vKXBd3ySLW5XTj293c4nGx720sqZqnjvqnoj83RH0l2tGkoxUYqySsl4FLVVNU6y+g2rdNuiKKI0iN0LmEwABDQBICQAAAAAAAAADxxmFjVg4TV4v+01wZO3XVRVyqeLyvWaLtE0VxulwukcBVwtTrNLPZnFtX7rrc7dheWb1GRRpMdsOTyca7iXNYnsmPziwHJt3bbb3tu782bMRERpDRqmZnWeIEJgCMrGEZjUCCUEZhKMMaJCMhhBIY62ZhqFXETUU3JpWvJt7Me9v5HhXXbsU68Pm27FjIzrsUxMzMc8zM6R+c3O7PR+BjRhsx8W+1viylu3arlXKl3mFh28W3yKO+eeZ6WUebbAAAAAAAAAAAAAAAAADyxGHjUi4zipRe9MlTXNM60zvQuW6blM01xrEuQ0tq3OneVK84cPaXl7XzLexnU17q90+TmszZNdv4rW+Ojnj6+rRm+ppSEZgCKxjgxMAR0TcwhKQiXCMttozQdSrZyThDi1m/3V6v4mnfy6Le6N8rbB2NeyPir+GnpnjPZHznzddg8HClHZhGy+LfFvtZUXLlVydapdjjYtrGo5FqNI9euXuQbAAAAAAAAAAAAAAAAAAAAADA0hoejWzlG0vejlLn2+Z72sm5a/TO7oaeRg2b++uN/TG6fztaDFaqVF+zmpLhLovmrp/A37e0aZ/XGnYpr2w7kft1RPbu/PJq62iMRDfRl5La/Tc26cqzVwqj09VZc2fk0caJ7t/pqx3Qmt8JLxi0enLpnhMNabNyONM+EpVGT3Qk33RY5VMc8I+6uVcKZ8Je9HRdeXVoz847P6rHnVkWqeNUevo9KMDJufptz3xp66NnhdWKr68owXd0n9viate0KI/TGvksbOwL9X7lUUx4z8o85b3AaEo0s1Hal70s+S3I0buVcubpnSOpeYuycbHnlRGtXTO/7R4NkayyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADArB3AsAAAAAAAAAAAAAAAArOXMCUBIACrYEbIFosCQAAAAAhsCkncC8UBIAAAAAUbv4ANnmBaLAkAAAAAKylYCiVwPUAAAqBAFkgJAAAABsDzcrgWjECwAAAAAAKoCLAWSAkAAAAVlKwFFmB6JASAAAQ0ASAkAAAAAIaAiMQLAAAAAAAAQ0ASAkAAAAAIlG4BICQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//Z"
+            alt=""
+          />
+          <h1 class="large">sam smith</h1>
+          <p class="lead">IT Profesional</p>
+          <p>NetWork Technologies - Seattle, WA</p>
+          <div class="icons my-1">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-globe fa-2x"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+             <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- About -->
+        <div class="profile-about bg-light p-2">
+          <h2 class="text-primary">About Sam</h2>
+          <p>
+            Text Publishing is an independent, Melbourne-based publisher of literary and 
+            commercial fiction and non-fiction. Text has been awarded the ABIA Small 
+            Publisher of the Year three times and won the Leading Edge Books Small 
+            Publisher of the Year in 2018 and 2019.
+          </p>
+          <div class="line"></div>
+          <h2 class="text-primary">Skill Set</h2>
+          <div class="skills">
+            <div class="p-1"><i class="fa fa-check"></i> HTML</div>
+            <div class="p-1"><i class="fa fa-check"></i> CSS</div>
+            <div class="p-1"><i class="fa fa-check"></i> JavaScript</div>
+            <div class="p-1"><i class="fa fa-check"></i> Python</div>
+            <div class="p-1"><i class="fa fa-check"></i> C#</div>
+          </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="profile-exp bg-white p-2">
+          <h2 class="text-primary">Experience</h2>
+          <div>
+            <h3 class="text-dark">Microsoft</h3>
+            <p>Oct 2011 - Current</p>
+            <p><strong>Position: </strong>Senior Developer</p>
+            <p>
+              <strong>Description: </strong>responsible for all major project overview
+            </p>
+          </div>
+          <div>
+            <h3 class="text-dark">Sun Microsystems</h3>
+            <p>Nov 2004 - Nov 2011</p>
+            <p><strong>Position: </strong>Systems Admin</p>
+            <p>
+              <strong>Description: </strong>overviewer of major networking operatoins
+            </p>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="profile-edu bg-white p-2">
+          <h2 class="text-primary">Education</h2>
+          <div>
+            <h3>University Of Washington</h3>
+            <p>Sep 1993 - June 1999</p>
+            <p><strong>Degree: </strong>Masters</p>
+            <p><strong>Field Of Study: </strong>Computer Science</p>
+            <p>
+              <strong>Description: </strong>Masters degree in CSCI with strong emphasis
+              in software engineering
+            </p>
+          </div>
+        </div>
+
+        <!-- Github -->
+        <div class="profile-github">
+          <h2 class="text-primary my-1">
+            <i class="fab fa-github"></i> Github Repositories
+          </h2>
+          <div class="repo bg-white p-1 my-1">
+            <div>
+              <h4><a href="#" target="_blank"
+                  rel="noopener noreferrer">Repo One</a></h4>
+              <p>
+                project 1 link
+              </p>
+            </div>
+            <div>
+              <ul>
+                <li class="badge badge-primary">Stars: 44</li>
+                <li class="badge badge-dark">Watchers: 21</li>
+                <li class="badge badge-light">Forks: 25</li>
+              </ul>
+            </div>
+          </div>
+          <div class="repo bg-white p-1 my-1">
+            <div>
+              <h4><a href="#" target="_blank"
+                  rel="noopener noreferrer">Repo Two</a></h4>
+              <p>
+                project 2 link
+              </p>
+            </div>
+            <div>
+              <ul>
+                <li class="badge badge-primary">Stars: 44</li>
+                <li class="badge badge-dark">Watchers: 21</li>
+                <li class="badge badge-light">Forks: 25</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

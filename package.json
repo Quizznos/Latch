@@ -1,0 +1,42 @@
+{
+  "name": "Latch",
+  "version": "1.0.0",
+  "description": "## What is Latch? LATCH is a social Web platform aimed towards people who are in the pursuit or already pursuing a career in any STEM field.The application will allow users to document various types of information about themselves such as experience, past projects, major, qualifications…etc. Also the application will allow users to interact with other users by sending in their profile, these ‘other profiles could be companies who have joined the site who have posted any listings on the request board. And the site will have discussion threads for anyone who is seeking answers to questions other users may have the answer to or if anyone wants to  chat.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSCI-152-Latch/latch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSCI-152-Latch/latch/issues"
+  },
+  "homepage": "https://github.com/CSCI-152-Latch/latch#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-validator": "^6.4.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.0",
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.7.5"
+  }
+}
